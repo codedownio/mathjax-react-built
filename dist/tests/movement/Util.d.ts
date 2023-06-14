@@ -1,0 +1,12 @@
+declare type MoveFn = (start: number, direction: any, expected: number | string) => void;
+export declare function testMovement(tex: string, cb: (fn: MoveFn) => void): void;
+export declare function moveFrom(tex: string, start: number, direction: any, expected: number | string): void;
+export declare function chain(direction: Direction): (positions: number[], move: any) => void;
+export declare const ltrChain: (positions: number[], move: any) => void;
+export declare const rtlChain: (positions: number[], move: any) => void;
+export declare const upChain: (positions: number[], move: any) => void;
+export declare const downChain: (positions: number[], move: any) => void;
+export declare function backAndForthChain(positions: number[], move: any): void;
+export declare function upAndDownChain(positions: number[], move: any): void;
+export declare function downAndUpChain(positions: number[], move: any): void;
+export {};

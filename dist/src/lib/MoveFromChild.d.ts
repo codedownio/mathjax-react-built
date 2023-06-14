@@ -1,0 +1,10 @@
+export declare function moveFromChild(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildMrow(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildMroot(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildMsup(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildMsub(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildMsubsup(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildMfrac(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildPassThrough(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildDoublePassThrough(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
+export declare function moveFromChildTableRow(node: SVGGraphicsElement, child: SVGGraphicsElement, direction: Direction, bb: BoundingBox, pos: number | null): MoveResult;
