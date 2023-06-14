@@ -1,6 +1,6 @@
 {
-  "name": "mathjax-react",
-  "version": "0.1.13",
+  "name": "@codedown/mathjax-react",
+  "version": "2.0.0",
   "description": "React wrapper for editable MathJax",
   "keywords": [],
   "author": "Tom McLaughlin",
